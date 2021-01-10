@@ -2,7 +2,7 @@ version: 2.1
 executors:
   exectr:
     docker:
-      - image: mustihanni/dockerfilerepositoryforcpp:latest
+      - image: mustaphaaref/cppcmakegtest:latest
 
 jobs:
   build:
